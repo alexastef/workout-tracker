@@ -10,10 +10,11 @@ const durationInput = document.querySelector("#duration");
 const resistanceDurationInput = document.querySelector("#resistance-duration");
 const distanceInput = document.querySelector("#distance");
 // const completeButton = document.querySelector("button.complete");
-// const addButton = document.querySelector("button.add-another");
+const addButton = document.querySelector("button.add-another");
 const toast = document.querySelector("#toast");
-// const newWorkout = document.querySelector(".new-workout")
-const addButton = document.querySelector("")
+const newWorkout = document.querySelector(".new-workout")
+const addExerciseBtn = document.querySelector(".addExercise");
+const addNewWorkout = document.querySelector(".newWorkout");
 
 let workoutType = null;
 let shouldNavigateAway = false;
